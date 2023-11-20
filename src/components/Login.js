@@ -69,7 +69,9 @@ const LoginForm = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="bg-white shadow-md rounded px-8 py-8 w-80">
-        <h2 className="text-2xl font-semibold mb-6 text-purple-700 underline">Login</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-purple-700 underline">
+          Login
+        </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
@@ -116,16 +118,12 @@ const LoginForm = () => {
             )}
           </div>
           <div className="mb-6 text-blue-500">
-          <button
-            type="button"
-            onClick={() => {
-              // Handle the functionality for Reset Password here
-              // For example, show a modal or trigger a password reset flow
-            }}
-            className="text-xs text-purple-600 hover:underline focus:outline-none"
-          >
-            Reset Password
-          </button>
+            <button
+              type="button"
+              className="text-xs text-purple-600 hover:underline focus:outline-none"
+            >
+              Reset Password
+            </button>
           </div>
           <div>
             <button
@@ -140,9 +138,6 @@ const LoginForm = () => {
           Don't have an account?{" "}
           <button
             type="button"
-            onClick={() => {
-              // Handle the functionality for navigating to the Sign Up page here
-            }}
             className="font-medium text-purple-600 hover:underline focus:outline-none"
           >
             Sign up
