@@ -25,3 +25,4 @@ Enter your credentials or sign up to access the coin-tracking features.
 Navigate through the dashboard to view cryptocurrency prices, and market changes, and manage favourite coins.
 
 ## `Demo Link`
+https://resplendent-kulfi-42126c.netlify.app/
