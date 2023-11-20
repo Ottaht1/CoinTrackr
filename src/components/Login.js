@@ -116,9 +116,16 @@ const LoginForm = () => {
             )}
           </div>
           <div className="mb-6 text-blue-500">
-            <a href="#" className="text-xs text-purple-600 hover:underline" >
-              Reset Password
-            </a>
+          <button
+            type="button"
+            onClick={() => {
+              // Handle the functionality for Reset Password here
+              // For example, show a modal or trigger a password reset flow
+            }}
+            className="text-xs text-purple-600 hover:underline focus:outline-none"
+          >
+            Reset Password
+          </button>
           </div>
           <div>
             <button
@@ -129,13 +136,18 @@ const LoginForm = () => {
             </button>
           </div>
         </form>
-        <p className="mt-8 text-xs font-light text-center text-gray-700">
-                    {" "}
-                    Don't have an account?{" "}
-                    <a href="#"className="font-medium text-purple-600 hover:underline">
-                        Sign up
-                    </a>
-                </p>
+        <p className="mt-4 text-xs font-light text-center text-gray-700">
+          Don't have an account?{" "}
+          <button
+            type="button"
+            onClick={() => {
+              // Handle the functionality for navigating to the Sign Up page here
+            }}
+            className="font-medium text-purple-600 hover:underline focus:outline-none"
+          >
+            Sign up
+          </button>
+        </p>
       </div>
     </div>
   );
