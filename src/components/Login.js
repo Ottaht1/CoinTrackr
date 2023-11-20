@@ -89,6 +89,7 @@ const LoginForm = () => {
               className={`border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
                 errors.email && "border-red-500"
               }`}
+              placeholder="Enter email address"
               required
             />
             {errors.email && (
@@ -111,6 +112,7 @@ const LoginForm = () => {
               className={`border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
                 errors.password && "border-red-500"
               }`}
+              placeholder="Enter password"
               required
             />
             {errors.password && (
